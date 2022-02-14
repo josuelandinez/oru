@@ -26,4 +26,5 @@ print("au",au)
 
 #inverse sherman morrison
 # Anew=A+uv'
-#
+#if 1+v'(A^-1)u !=0
+#(A+uv')^-1 = A^-1 - 1/(1+v'(A^-1)u) A-1
